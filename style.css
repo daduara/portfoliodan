@@ -17,8 +17,8 @@
   --fonte-texto: Montserrat, sans-serif;
 
   /* Tamanhos */
-  --tamanho-titulo: 36px;
-  --tamanho-texto: 24px;
+  --tamanho-titulo: 2.25rem;
+  --tamanho-texto: 1.5rem;
 
   /* Estilos */
   --estilo-titulo: normal;
@@ -29,8 +29,8 @@
   --peso-texto: 400;
 
   /* Linha */
-  --linha-titulo: 56px;
-  --linha-texto: 36px;
+  --linha-titulo: 3.5rem;
+  --linha-texto: 2.25rem;
 
   /* Borda */
   --borda-raio: 8px;
@@ -81,6 +81,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -170,5 +171,23 @@ p {
   line-height: var(--linha-texto);
 }
 
-/* Outros estilos */
-/* Adicione outros estilos específicos aqui, se necessário */
+.imagem {
+  width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__link {
+    justify-content: center;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
+}

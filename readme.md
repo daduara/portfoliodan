@@ -1,7 +1,7 @@
 <h1 align="center"> Portfolio Dan V2 </h1>
 
 <p align="center">
-Programa de exercício proposto pela Alura no curso de formação de Front-end módulo 2<br/>
+Programa de exercício proposto pela Alura no curso de formação de Front-end módulo 3 com responsividade<br/>
 <a href="https://www.figma.com/file/0sHX72vfT4sspU9FunajsC/Portfolio-Projeto-2-(Copy)?node-id=1%3A47&mode=dev">Estude esse projeto clicando aqui.</a>
 </p>
 
@@ -39,3 +39,5 @@ Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.fig
 ## Licença
 
 Esse projeto está sob a licença MIT.
+
+# portfoliodanV2
